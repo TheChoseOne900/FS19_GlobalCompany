@@ -20,7 +20,7 @@
 		<e k="GC_gui_modHubLink" v="ModHub Download Link"/>
 		<e k="GC_gui_buttons_nextWarning" v="Aviso Seguinte"/>
 		<e k="GC_gui_buttons_nextConflict" v="Conflito Seguinte"/>
-
+		<e k="GC_gui_buttons_accept" v="Confirmar"/>
 		<!-- General -->
 		<e k="GC_category_globalCompanyPlaceable" v="GlobalCompany"/>
 
@@ -137,14 +137,66 @@
 		<e k="GC_placeableDigDisplay_header" v="Display digital"/>
 		<e k="GC_placeableDigDisplay_headerInfo" v="Aqui você pode especificar qualquer texto que deseja que apareça no visor."/>
 		<e k="GC_placeableDigDisplay_btnSave" v="Gravar"/>
-		
-				<!-- Market -->
-		<!--e k="GC_market_showDetails" v="Details"/>
-		<e k="GC_market_date" v="Date"/>
-		<e k="GC_market_name" v="Name"/>
-		<e k="GC_market_type" v="Art"/>
-		<e k="GC_market_liter" v="Litres"/>
-		<e k="GC_market_money" v="Price"/>
-		<e k="GC_market_designation" v="Market name"/-->
+
+		<!-- GlobalMarket -->
+		<e k="GC_globalMarket_openGui" v="Abrir GlobalMarket"/>
+		<e k="GC_globalMarket_header" v="Global Markt 2020"/>
+		<e k="GC_globalMarket_headerInfo" v="Aqui podes vender bens entregues ou comprar bens."/>
+		<e k="GC_globalMarket_btn_buyScreen" v="Visão geral de compra"/>
+		<e k="GC_globalMarket_btn_storageScreen" v="Visão geral de stock"/>
+		<e k="GC_globalMarket_btn_synch" v="Sincronizar"/>
+		<e k="GC_globalMarket_header2" v="Global Markt 2020 - Seleção da quantidade"/>
+		<e k="GC_globalMarket_headerInfo2" v="Selecione aqui a quantidade desejada!"/>
+		<e k="GC_globalMarket_btn_ok" v="Confirmar"/>
+		<e k="GC_globalMarket_btn_startLoad" v="Iniciar carregamento"/>
+		<e k="GC_globalMarket_header3" v="Global Markt 2020 - Outsource"/>
+		<e k="GC_globalMarket_headerInfo3" v="Selecione o que carregar"/>
+		<e k="GC_globalMarket_btn_min" v="Mínimo"/>
+		<e k="GC_globalMarket_btn_max" v="Máximo"/>
+		<e k="GC_globalMarket_txt_amount" v="Quantidade"/>
+		<e k="GC_globalMarket_txt_money" v="Valor"/>
+		<e k="GC_globalMarket_tbl_header_filltype" v="Produto"/>
+		<e k="GC_globalMarket_tbl_header_level" v="Litros"/>
+		<e k="GC_globalMarket_tbl_header_pallets" v="Paletes"/>
+		<e k="GC_globalMarket_tbl_header_bales" v="Fardos"/>
+		<e k="GC_globalMarket_tbl_header_price" v="Preço atual"/>
+		<e k="GC_globalMarket_tbl_header_price2" v="Preço atual / 1000 Litros"/>
+		<e k="GC_globalMarket_btn_outsource" v="Outsource"/>
+		<e k="GC_globalMarket_btn_outsourceBale1" v="Fardo redondo"/>
+		<e k="GC_globalMarket_btn_outsourceBale2" v="Fardo quadrado"/>
+		<e k="GC_globalMarket_btn_sell" v="Vender"/>
+		<e k="GC_globalMarket_btn_buy" v="Comprar"/>
+		<e k="GC_globalMarket_tbl_header_preview" v="Pré-visualização"/>
+		<e k="GC_globalMarket_tbl_header_name" v="Nome"/>
+		<e k="GC_globalMarket_tbl_header_age" v="Idade"/>
+		<e k="GC_globalMarket_tbl_header_price3" v="Preço"/>
+
+		<e k="GC_globalMarket_externIsOffline" v="Inicie o software externo necessário para que possa comprar bens ou vender os bens entregues."/>
+		<e k="GC_globalMarket_externIsFalseVersion" v="Não tem a versão mais recente do software externo."/>
+		<e k="GC_globalMarket_storeItem_squareBaleGrass" v="Fardos quadrados de erva"/>
+		<e k="GC_globalMarket_storeItem_roundBaleGrass" v="Fardos redondos de erva"/>
+		<e k="GC_globalMarket_storeItem_cotton" v="Algodão"/>
+		<!-- AnimalFeeder -->
+		<e k="GC_animalFeeder_backupTitie" v="Feedingsystem"/>
+		<e k="GC_animalFeeder_openGui" v="Abrir painel"/>
+		<e k="GC_animalFeeder_gui_info" v="Gerir o sistema de alimentação aqui!"/>
+		<e k="GC_animalFeeder_gui_startManual" v="Iniciar o sistema manualmente"/>
+		<e k="GC_animalFeeder_gui_hist_header" v="Estatísticas"/>
+		<e k="GC_animalFeeder_gui_hist_text1" v="Consumo total ontem:"/>
+		<e k="GC_animalFeeder_gui_hist_text2" v="Consumo de Bunker %s ontem:"/>
+		<e k="GC_animalFeeder_gui_hist_val" v="%s Litros"/>
+		<e k="GC_animalFeeder_gui_hist_time" v="Tempo %s:00"/>
+		<e k="GC_animalFeeder_gui_demandPercent" v="Mais preciso/alimentação:"/>
+		<e k="GC_animalFeeder_gui_bunker_title" v="Visão geral do Bunker"/>
+		<e k="GC_animalFeeder_gui_bunker_name" v="Bunker %s"/>
+		<e k="GC_animalFeeder_gui_mixingRatio_title" v="Relação de mistura"/>
+		<e k="GC_animalFeeder_gui_mixingRatio_warnung" v="A relação de mistura deve ser 100%!"/>
+		<e k="GC_animalFeeder_gui_literPerDrive" v="Quantidade/viagem:"/>
+		<e k="GC_animalFeeder_gui_warningHeader" v="Sistemas de alimentação - avisos (%s)"/>
+		<e k="GC_animalFeeder_gui_warningText_bunkerEmpty" v="%s: %s vazio!"/>
+		<e k="GC_animalFeeder_gui_warningText_noConnectedAnimalTrough" v="Nenhum canal encontrado!"/>
+		<e k="GC_animalFeeder_gui_warningText_toHighDeltaForTroug" v="Capacidade muito grande!"/>
+		<!-- FarmStarter -->
+		<e k="GC_farmstarter_header" v="Escolha a sua exploração inicial!"/>
 	</elements>
 </l10n>
